@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:stretchColumns="1">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAqua"
+            android:gravity="center"
+            android:text="NEWS                 "
+            android:textColor="@color/colorBlack"
+            android:textSize="50sp"
+            android:textStyle="bold">
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorGray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:background="@color/colorSilver"
+            android:layout_weight="1">
+            <TextView
+                android:text="HEADER"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="15sp">
+            </TextView>
+        </TableRow>
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorGray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="30">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+            <TableRow
+                android:background="@color/colorSilver"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+                <TextView
+                    android:text="Bla, Bla, Bla, Bla, Bla, Bla, Bla, Bla, Bla, Bla, Bla, Bla, Bla, Bla, Bla, Bla, Bla, Bla, Bla"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="15sp">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:background="@color/colorSilver"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+                <TextView
+                    android:text="Bla"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="15sp">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:background="@color/colorSilver"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+                <TextView
+                    android:text="Bla"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="15sp">
+                </TextView>
+            </TableRow>
+
+        </TableRow>
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorGray"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="6">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1">
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/colorSilver"
+                android:layout_weight="1"
+                android:layout_marginRight="40dp">
+                <TextView
+                android:text="FOOTER 1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="15sp">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/colorSilver"
+                android:layout_weight="1">
+                <TextView
+                    android:text="FOOTER 2"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="15sp">
+                </TextView>
+            </TableRow>
+        </TableRow>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAqua"
+            android:gravity="center"
+            android:text="Aarón Aguirre                                                        "
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp">
+        </TextView>
+    </TableRow>
+
+</TableLayout>
